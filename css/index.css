@@ -1,0 +1,26 @@
+@font-face {
+    font-family: headerLibrary;
+    src: url('../fonts/Silent\ Reaction.ttf');
+  }
+.first{
+    height: 160px ;
+    border: solid 3px ;
+    font-family:headerLibrary;
+    text-align: center;
+    padding:25px;
+
+}
+.link{
+    border: solid 3px black;
+    width: 30%;
+    height: 70px;
+    padding: 12px;
+    
+}
+.main{
+  display:inline;
+}
+.right{
+   height: 300px;
+   border: solid 4px rgb(151, 42, 151);
+}
