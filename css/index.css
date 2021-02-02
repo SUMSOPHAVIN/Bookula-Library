@@ -1,12 +1,49 @@
-.head{
-    width: 99%;
-    height: 300px;
-    
-    border: 5px outset black;
-    background-image: url("images.jpg");
+@font-face {
+    font-family: headerLibrary;
+    src: url('../fonts/Silent\ Reaction.ttf');
+  }
+#first{
+    height: 160px ;
+    background-image: url(../image/background.jpg);
+    font-family:headerLibrary;
     text-align: center;
-    margin: 0;
+    padding:25px
+  
 }
-#f{
-    font-family:'Times New Roman', cursive;
+header{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  position: relative;
+  width: 200px;
+  margin-left: 0px;
+  padding: 0;
+}
+header ul{position: relative;
+  display: flex;}
+  
+header ul li{ list-style: none;}
+ul li a
+{
+  display:inline-block;
+  color:black;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+
+.main{
+  display:inline;
+}
+.right{
+   height: 300px;
+   border: solid 4px rgb(151, 42, 151);
 }
