@@ -18,17 +18,18 @@ body > header > #logo {
   float: left;
 }
 body > header > #logo img{
-  height: 160px;
+  height: 120px;
+  margin-top: 30px;
 }
 body > header > #site-name{
   text-align: center;
   padding-top: 40px;
 }
   body > header > #site-name h2{
-  font-size: 30px;
+  font-size: 35px;
 }
 body > header > #main-navigation {
-  float: right; margin-top: 50px;
+  float: right; margin-top: 80px;
 }
 body > header > #main-navigation ul{
   list-style: none; 
@@ -45,10 +46,21 @@ body > header > #main-navigation ul li a:hover{
   color: orange;
 }
 
-.main{
-  display:inline;
-}
-.right{
-   height: 300px;
-   border: solid 4px rgb(151, 42, 151);
-}
+
+
+
+section{
+  text-align: center;
+  margin-top: 150px;
+  
+  }
+
+  section > h2
+  {
+    
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
+
+ 
