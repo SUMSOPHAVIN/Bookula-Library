@@ -2,43 +2,48 @@
     font-family: headerLibrary;
     src: url('../fonts/Silent\ Reaction.ttf');
   }
-#first{
+body{
+  margin: 0;
+}
+img {
+  max-width: 100%; max-height: 100%;
+}
+body > header {
     height: 160px ;
     background-image: url(../image/background.jpg);
     font-family:headerLibrary;
-    text-align: center;
-    padding:25px
-  
+    padding:25px;
 }
-header{
-  position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 100px;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
+body > header > #logo {
+  float: left;
 }
-.logo{
-  position: relative;
-  width: 200px;
-  margin-left: 0px;
-  padding: 0;
+body > header > #logo img{
+  height: 160px;
 }
-header ul{position: relative;
-  display: flex;}
-  
-header ul li{ list-style: none;}
-ul li a
-{
-  display:inline-block;
-  color:black;
-  font-weight: 400;
-  margin-left: 40px;
-  text-decoration: none;
+body > header > #site-name{
+  text-align: center;
+  padding-top: 40px;
 }
+  body > header > #site-name h2{
+  font-size: 30px;
+}
+body > header > #main-navigation {
+  float: right; margin-top: 50px;
+}
+body > header > #main-navigation ul{
+  list-style: none; 
+}
+body > header > #main-navigation ul li{
+  display: inline-block;
+}
+body > header > #main-navigation ul li a{
+  padding: 0 19px;
+  transition: all 0.3s ease;
 
+}
+body > header > #main-navigation ul li a:hover{
+  color: orange;
+}
 
 .main{
   display:inline;
