@@ -58,18 +58,27 @@ section{
   div > section >p{
     margin: 0px;
     padding: 0px;
+    opacity: 1;
   }
-
-  #belowbackground 
+div >section {
+  border: 3px solid green;
+}
+  /* #belowbackground 
   {
-    border-radius: 20px;
-    background-image: url(../image/background2.jpg);
+    border-radius: 30px;
+    background-image: url(../image/background.jpg);
+    opacity: 0.7;
+   
+    
+    background-size: cover;
     margin:auto;
-    width: 70%;
+    width: 60%;
     height: 350px;
     padding: 0cm;
     border: solid 1px cornsilk;
-    margin-top: 40px;}
+    margin-top: 40px;
+
+  }*/
     
 
   #bt{
