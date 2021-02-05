@@ -47,3 +47,30 @@ body > header > #main-navigation ul li a{
 body > header > #main-navigation ul li a:hover{
   color: orange;
 }
+
+
+#registerBox{
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: left;
+    padding: 25px;
+    width: 60%;
+    height: 500px;
+    border-radius: 50px;
+    
+    
+}
+#registerBox > h1 {
+  text-align: center;
+}
+
+#registerBox > h1 {
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
