@@ -10,9 +10,10 @@ img {
 }
 body > header {
     height: 160px ;
-    background-image: url(../image/background.jpg);
+   
     font-family:headerLibrary;
     padding:25px;
+    margin: 0cm;
 }
 body > header > #logo {
   float: left;
@@ -22,11 +23,12 @@ body > header > #logo img{
   margin-top: 30px;
 }
 body > header > #site-name{
-  text-align: center;
+  text-align: right;
   padding-top: 40px;
 }
   body > header > #site-name h2{
-  font-size: 35px;
+  font-size: 45px;
+  padding-right: 500px;
 }
 body > header > #main-navigation {
   float: right; margin-top: 80px;
@@ -46,20 +48,72 @@ body > header > #main-navigation ul li a:hover{
   color: orange;
 }
 
-
-
-
 section{
   text-align: center;
   margin-top: 150px;
+  margin-bottom: 0%;
+  padding: 0%;
   
   }
-
-  section > h2
-  {
-    
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  div > section >p{
+    margin: 0px;
+    padding: 0px;
   }
+
+  #belowbackground 
+  {
+    border-radius: 20px;
+    background-image: url(../image/background2.jpg);
+    margin:auto;
+    width: 70%;
+    height: 350px;
+    padding: 0cm;
+    border: solid 1px cornsilk;
+    margin-top: 40px;}
+    
+
+  #bt{
+    text-align: center;
+  }
+
+  #btLogin{
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    width: 150px;
+    font-size: 25px;
+    color: #15f4ee;
+    margin-top: 25px;
+    border: 2px solid #15f4ee;
+    letter-spacing: 3px;
+    cursor:pointer;
+    border-radius: 100px;
+    transition: 0.3s;
+  }
+  #btLogin:hover
+  {
+    color: lightblue; 
+  }
+  #btRegister{
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    width: 150px;
+    font-size: 25px;
+    color: #15f4ee;
+    margin-top: 25px;
+    border: 2px solid #15f4ee;
+    letter-spacing: 3px;
+    cursor:pointer;
+    border-radius: 100px;
+    transition: 0.3s;
+  
+  }
+  #btRegister:hover
+  {
+    color: lightblue;
+  }
+  
 
   
 
