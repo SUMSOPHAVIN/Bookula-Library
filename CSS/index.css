@@ -2,6 +2,15 @@
     font-family: headerLibrary;
     src: url('../fonts/Silent\ Reaction.ttf');
   }
+  body{
+    background-image: 
+   
+    url(../image/test.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    
+    
+  }
 body{
   margin: 0;
 }
